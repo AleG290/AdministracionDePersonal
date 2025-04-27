@@ -1,0 +1,50 @@
+﻿@page
+@model AdministracionDePersonal.Pages.Acciones.DeleteModel
+@{
+    ViewData["Title"] = "Accion De Personal";
+    
+}
+
+<h1>Eliminar Accion De Personal</h1>
+
+<div>
+    <div>
+        <h5>@Model.Accion!.IdAccion</h5>
+    </div>
+
+    <!-- Formulario con id para ser llamado desde el modal -->
+    <form method="post" id="form-eliminar">
+        <input type="submit" value="Eliminar" class="btn btn-danger" id="btn-eliminar" /> |
+        <a asp-page="Index" class="btn btn-secondary">Cancelar</a>
+    </form>
+</div>
+
+<!-- MODAL DE ELIMINAR -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script>
+    document.getElementById("btn-eliminar").addEventListener("click", function(event) {
+        // Detener el envío automático del formulario
+        event.preventDefault();
+
+        Swal.fire({
+            title: "¿Estás seguro?",
+            text: "¡No podrás revertir esto!",
+            icon: "warning",
+            showCancelButton: true,
+            confirmButtonColor: "#3085d6",
+            cancelButtonColor: "#d33",
+            confirmButtonText: "Sí, eliminarlo"
+        }).then((result) => {
+            if (result.isConfirmed) {
+                Swal.fire({
+                    title: "¡Acción Eliminada!",
+                    text: "La acción ha sido eliminada exitosamente.",
+                    icon: "success"
+                }).then(() => {
+                    // Enviar el formulario manualmente
+                    document.getElementById("form-eliminar").submit();
+                });
+            }
+        });
+    });
+</script>
