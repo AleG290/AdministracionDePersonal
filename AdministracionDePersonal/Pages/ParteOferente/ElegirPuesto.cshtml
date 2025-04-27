@@ -1,0 +1,110 @@
+﻿@page "{id:int}"
+@model AdministracionDePersonal.Pages.ParteOferente.ElegirPuestoModel
+@{
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+    var idOferente = RouteData.Values["id"];
+    ViewData["Title"] = "Elegir puesto";
+}
+
+<main>
+    <div class="container-fluid px-4">
+        <h1 class="mt-4">Elegir puesto</h1>
+        <ol class="breadcrumb mb-4">
+            <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
+            <li class="breadcrumb-item active">Contratar oferente</li>
+            <li class="breadcrumb-item active">Elegir puesto</li>
+        </ol>
+        <div class="card mb-4">
+            <div class="card-header">
+                <i class="fas fa-table me-1"></i>
+            </div>
+            <div class="card-body">
+                <table id ="datatablesSimple" class="table table-striped table-bordered">
+                    <thead>
+                        <tr>
+                            <th>IdPuesto</th>
+                            <th>Nombre</th>
+                            <th>Salario</th>
+                            <th>IdJefatura</th>
+                            <th>Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model.Puestos)
+                        {
+                            <tr>
+                                <td>@item.IdPuesto</td>
+                                <td>@item.Nombre</td>
+                                <td>@item.Salario</td>
+                                <td>@item.IdJefatura</td>
+                                <td>
+                                    <button type="button" class="btn btn-primary btn-seleccionar" data-idpuesto="@item.IdPuesto">
+                                        Seleccionar
+                                    </button>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+                <form id="form-enviar" method="post" asp-page-handler="AsignarPuesto">
+                    <input type="hidden" id="idOferente" name="idOferente" value="@idOferente" />
+                    <input type="hidden" id="idPuesto" name="idPuesto" />
+                    <button type="submit" class="btn btn-primary" id="btn-enviar">
+                        Guardar
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</main>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        // Selecciona todos los botones de la tabla
+        document.querySelectorAll(".btn-seleccionar").forEach(button => {
+            button.addEventListener("click", function () {
+                const idPuesto = this.getAttribute("data-idpuesto"); // Obtiene el id del puesto seleccionado
+                document.getElementById("idPuesto").value = idPuesto; // Asigna el idPuesto al input oculto
+
+                Swal.fire({
+                    icon: "success",
+                    title: "Puesto seleccionado",
+                    text: "Ahora puedes continuar con la asignación.",
+                    confirmButtonText: "OK"
+                });
+            });
+        });
+
+        // Evento para enviar el formulario
+        document.getElementById("btn-enviar").addEventListener("click", function (event) {
+            const idOferente = document.getElementById("idOferente").value.trim();
+            const idPuesto = document.getElementById("idPuesto").value.trim();
+
+            if (idOferente === "" || idPuesto === "") {
+                event.preventDefault(); // Evita el envío del formulario si faltan datos
+                Swal.fire({
+                    icon: "warning",
+                    title: "Campos Vacíos",
+                    text: "Por favor, seleccione un puesto antes de continuar.",
+                });
+            } else {
+                Swal.fire({
+                    icon: "success",
+                    title: "¡Puesto Asignado!",
+                    text: "Empleado creado con exito.",
+                    confirmButtonText: "OK"
+                }).then((result) => {
+                    if (result.isConfirmed) {
+                        document.getElementById("form-enviar").submit(); // Envia el formulario
+                    }
+                });
+            }
+        });
+    });
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+<script src="~/js/scripts.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/umd/simple-datatables.min.js" crossorigin="anonymous"></script>
+<script src="~/js/datatables-simple-demo.js"></script>

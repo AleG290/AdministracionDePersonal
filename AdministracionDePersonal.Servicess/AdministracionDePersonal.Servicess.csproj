@@ -6,10 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-
   <ItemGroup>
-    <PackageReference Include="MySqlConnector" Version="2.4.0" />
+    <ProjectReference Include="..\AdministracionDePersonal.Entities\AdministracionDePersonal.Entities.csproj" />
+    <ProjectReference Include="..\AdministracionDePersonal.Repository\AdministracionDePersonal.Repository.csproj" />
   </ItemGroup>
-
 
 </Project>

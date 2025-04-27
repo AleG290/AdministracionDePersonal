@@ -1,15 +1,22 @@
+
 using AdministracionDePersonal.Repository;
 using AdministracionDePersonal.Services;
 using AdministracionDePersonal.Services.Abstract;
+using AdministracionDePersonal;
 
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
-builder.Services.AddSingleton<IDbConnectionFactory, DbConnectionFactory>();
-builder.Services.AddScoped<RequisitoRepository>();
 builder.Services.AddScoped<IRequisitoService, RequisitoService>();
+builder.Services.AddScoped<RequisitoRepository>();
+builder.Services.AddScoped<OferenteRepository>();
+builder.Services.AddScoped<PuestoRepository>();
+builder.Services.AddScoped<IOferenteService, OferenteService>();
+builder.Services.AddScoped<IDbConnectionFactory, DbConnectionFactory>();
+builder.Services.AddScoped<IPuestoService, PuestoService>();
+
 
 var app = builder.Build();
 
@@ -17,7 +24,13 @@ var app = builder.Build();
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Error");
+
+    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
+    app.UseHsts();
 }
+
+app.UseHttpsRedirection();
+
 app.UseStaticFiles();
 
 app.UseRouting();
