@@ -1,4 +1,5 @@
 
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35514.174
@@ -12,6 +13,7 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdministracionDePersonal.Entities", "AdministracionDePersonal.Entities\AdministracionDePersonal.Entities.csproj", "{5C014991-A867-45F2-7ED7-0542314381B2}"
 EndProject
 
+
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,6 +21,7 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+
 {E71E2A70-1EEC-44DB-95CB-3F8E418A286C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 {E71E2A70-1EEC-44DB-95CB-3F8E418A286C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 {E71E2A70-1EEC-44DB-95CB-3F8E418A286C}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -36,10 +39,12 @@ Global
 {5C014991-A867-45F2-7ED7-0542314381B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 {5C014991-A867-45F2-7ED7-0542314381B2}.Release|Any CPU.Build.0 = Release|Any CPU
 
+
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
+
 GlobalSection(ExtensibilityGlobals) = postSolution
     SolutionGuid = {D7DFF9BC-C38E-4D91-86E7-D8DDDA5781C0}
 EndGlobalSection
