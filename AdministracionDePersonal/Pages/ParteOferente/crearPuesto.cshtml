@@ -1,0 +1,113 @@
+﻿@page
+@model AdministracionDePersonal.Pages.ParteOferente.crearPuestoModel
+
+@{
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Crear Puesto";
+}
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-lg-7">
+            <div class="card shadow-lg border-0 rounded-lg mt-5">
+                <div class="card-header">
+                    <img src="@Url.Content("~/img/Logo.jpeg")" alt="Logo" width="50" />
+                    <h3 class="text-center font-weight-light my-4">Crear Puesto</h3>
+                </div>
+                <div class="card-body">
+                    <form id="form-crear" method="post">
+                        <!-- Eliminar el campo IdPuesto -->
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <div class="form-floating mb-3 mb-md-0">
+                                    <input asp-for="Puesto.Nombre" class="form-control" id="nombre" placeholder="Nombre" />
+                                    <label asp-for="Puesto.Nombre">Nombre</label>
+                                    <span asp-validation-for="Puesto.Nombre" class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input asp-for="Puesto.Salario" class="form-control" id="salario" placeholder="Salario" />
+                            <label asp-for="Puesto.Salario">Salario</label>
+                            <span asp-validation-for="Puesto.Salario" class="text-danger"></span>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input asp-for="Puesto.IdJefatura" class="form-control" id="idJefatura" placeholder="IdJefatura" />
+                            <label asp-for="Puesto.IdJefatura">IdJefatura</label>
+                            <span asp-validation-for="Puesto.IdJefatura" class="text-danger"></span>
+                        </div>
+                        <div class="mt-4 mb-0">
+                            <div class="d-grid">
+                                <button id="btn-crear" type="button" class="btn btn-primary btn-block">Crear</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="card-footer text-center py-3">
+                    <div class="small">
+                        <a asp-page="Index">Volver a la lista</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script>
+    document.getElementById("nombre").addEventListener("input", function() {
+        const nombre = this.value.trim().toLowerCase();
+        const idJefaturaInput = document.getElementById("idJefatura");
+
+        // Definir los valores de IdJefatura según el nombre del puesto
+        const jefaturas = [
+            { clave: "gerente", id: 1 },
+            { clave: "supervisor", id: 2 },
+            { clave: "tecnico", id: 3 },
+            { clave: "analista", id: 4 },
+            { clave: "desarrollador", id: 5 },
+            { clave: "administrador", id: 6 },
+            { clave: "soporte", id: 7 },
+            { clave: "ingeniero", id: 8 },
+            { clave: "consultor", id: 9 },
+            { clave: "especialista", id: 10 },
+            { clave: "seguridad", id: 11 },
+            { clave: "miscelaneo", id: 12 },
+            { clave: "oficinista", id: 13 },
+            { clave: "abogado", id: 134 }
+        ];
+
+        // Buscar la clave dentro del nombre ingresado
+        const jefaturaEncontrada = jefaturas.find(j => nombre.includes(j.clave));
+
+        // Asignar el valor encontrado o limpiar el campo si no coincide
+        idJefaturaInput.value = jefaturaEncontrada ? jefaturaEncontrada.id : "";
+    });
+
+    document.getElementById("btn-crear").addEventListener("click", function(event) {
+        const nombre = document.getElementById("nombre").value.trim();
+        const salario = document.getElementById("salario").value.trim();
+        const idJefatura = document.getElementById("idJefatura").value.trim();
+
+        // Verificar si algún campo está vacío
+        if (nombre !== "" && salario !== "" && idJefatura !== "") {
+            Swal.fire({
+                icon: "success",
+                title: "¡Puesto Creado!",
+                text: "El puesto ha sido creado exitosamente!",
+            }).then(() => {
+                // Enviar el formulario después de cerrar el modal
+                document.getElementById("form-crear").submit();
+            });
+        } else {
+            // Si algún campo está vacío, no hacer nada
+            Swal.fire({
+                icon: "warning",
+                title: "¡Campos incompletos!",
+                text: "Por favor, complete todos los campos antes de crear el puesto.",
+            });
+        }
+    });
+</script>
