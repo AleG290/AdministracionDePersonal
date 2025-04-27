@@ -1,2 +1,29 @@
+# Compilacion
 bin/
 obj/
+*.dll
+*.exe
+*.pdb
+*.cache
+*.tmp
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Publicacion
+publish/
+
+# Logs
+*.log
+
+# Bases de datos locales
+*.db
+*.db-shm
+*.db-wal
+
+# Resultados de tests
+TestResults/
