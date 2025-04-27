@@ -2,7 +2,6 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using MySql.Data.MySqlClient;
 
-
 namespace AdministracionDePersonal.Pages
 {
     public class IndexModel : PageModel
@@ -16,7 +15,8 @@ namespace AdministracionDePersonal.Pages
 
         public void OnGet()
         {
-
+            
         }
+
     }
 }
