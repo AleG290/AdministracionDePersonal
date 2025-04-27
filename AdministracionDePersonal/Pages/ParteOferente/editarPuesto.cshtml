@@ -1,0 +1,89 @@
+﻿@page
+@model AdministracionDePersonal.Pages.ParteOferente.editarPuestoModel
+@{
+    
+    ViewData["Title"] = "Editar Puesto";
+}
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-lg-7">
+            <div class="card shadow-lg border-0 rounded-lg mt-5">
+                <div class="card-header">
+                    <img src="@Url.Content("~/img/Logo.jpeg")" alt="Logo" width="50" />
+                    <h3 class="text-center font-weight-light my-4">Editar Puesto</h3>
+                </div>
+                <div class="card-body">
+                    <form id="form-editar" method="post">
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <div class="form-floating mb-3 mb-md-0">
+                                    <input asp-for="Puesto.IdPuesto" class="form-control" placeholder="IdPuesto" readonly />
+                                    <label asp-for="Puesto.IdPuesto">IdPuesto</label>
+                                    <span asp-validation-for="Puesto.IdPuesto" class="text-danger"></span>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input asp-for="Puesto.Nombre" class="form-control" placeholder="Nombre" />
+                                    <label asp-for="Puesto.Nombre">Nombre</label>
+                                    <span asp-validation-for="Puesto.Nombre" class="text-danger"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input asp-for="Puesto.Salario" class="form-control" placeholder="Salario" type="number" step="any" />
+                            <label asp-for="Puesto.Salario">Salario</label>
+                            <span asp-validation-for="Puesto.Salario" class="text-danger"></span>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input asp-for="Puesto.IdJefatura" class="form-control" placeholder="IdJefatura" readonly/>
+                            <label asp-for="Puesto.IdJefatura">IdJefatura</label>
+                            <span asp-validation-for="Puesto.IdJefatura" class="text-danger"></span>
+                        </div>
+                        <div class="mt-4 mb-0">
+                            <div class="d-grid">
+                                <button id="btn-editar" type="button" class="btn btn-primary btn-block">Editar</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="card-footer text-center py-3">
+                    <div class="small">
+                        <a asp-page="Index">Volver a la lista</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        document.getElementById("btn-editar").addEventListener("click", function(event) {
+            // Detener el envío automático del formulario
+            event.preventDefault();
+
+            Swal.fire({
+                title: "¿Estás seguro?",
+                icon: "warning",
+                showCancelButton: true,
+                confirmButtonColor: "#3085d6",
+                cancelButtonColor: "#d33",
+                confirmButtonText: "Sí, editarlo"
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    Swal.fire({
+                        title: "¡Puesto Editado!",
+                        text: "Tu puesto ha sido editado exitosamente.",
+                        icon: "success"
+                    }).then(() => {
+                        // Enviar el formulario manualmente
+                        document.getElementById("form-editar").submit();
+                    });
+                }
+            });
+        });
+    });
+</script>

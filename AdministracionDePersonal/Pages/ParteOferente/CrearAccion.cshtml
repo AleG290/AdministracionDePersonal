@@ -1,0 +1,254 @@
+﻿@page
+@model AdministracionDePersonal.Pages.ParteOferente.CrearAccionModel
+@{
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+    var oferenteId = RouteData.Values["id"];
+    var oferentePuesto = RouteData.Values["puesto"];
+    var empleado = RouteData.Values["empleado"];
+    ViewData["Title"] = "Crear accion";
+}
+
+<body class="bg-White">
+    <div id="layoutAuthentication">
+        <div id="layoutAuthentication_content">
+            <main>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-7">
+                            <div class="card shadow-lg border-0 rounded-lg mt-5">
+                                <div class="card-header">
+                                    <img src="@Url.Content("~/img/Logo.jpeg")" alt="Logo" width="50" />
+                                    <h3 class="text-center font-weight-light my-4">Crear accion</h3>
+                                </div>
+
+                                <div class="card-body">
+                                    <!--
+                                    <form method="post" id="form-crear" asp-page-handler="CrearAccion">
+                                         Campos ocultos 
+                                        <input type="hidden" name="idEmpleado" value="@Model.IdEmpleado" />
+                                        <input type="hidden" name="idPuesto" value="@Model.IdPuesto" />
+
+
+                                        <div class="row mb-3">
+                                            <div class="col-md-6">
+                                                <div class="form-floating mb-3 mb-md-0">
+                                                    <input class="form-control" type="text" id="descripcion" placeholder="La descripcion de la accion" />
+                                                    <label for="descripcion">Descripcion de accion</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-floating">
+                                                    <input class="form-control" type="date" id="fecha" placeholder="Ingrese la fecha" />
+                                                    <label for="fecha">Fecha de la accion</label>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-floating mb-3">
+                                            <input class="form-control" type="text" id="tipo" placeholder="Ingrese el tipo de accion" />
+                                            <label for="tipo">Tipo de accion</label>
+                                        </div>
+
+                                        <div class="form-floating mb-3">
+                                            <textarea class="form-control" id="observaciones" placeholder="Ingrese las observaciones"></textarea>
+                                            <label for="observaciones">Observaciones</label>
+                                        </div>
+
+                                        <div class="mt-4 mb-0">
+                                            <div class="d-grid">
+                                                <button type="button" class="btn btn-primary btn-block" id="btn-crear">Crear</button>
+
+                                            </div>
+                                        </div>
+                                    </form>
+                                -->
+                                    <!--
+                                    <form method="post" id="form-crear" asp-page-handler="CrearAccion">
+                                        <input type="hidden" name="IdEmpleado" value="@Model.IdEmpleado" />
+                                        <input type="hidden" name="IdPuesto" value="@Model.IdPuesto" />
+
+                                        <label>Fecha:</label>
+                                        <input type="date" asp-for="Fecha" id="fecha" required />
+
+                                        <label>Descripcion:</label>
+                                        <input type="text" asp-for="Descripcion" id="descripcion" required />
+
+                                        <label>Tipo de Accion:</label>
+                                        <input type="text" asp-for="TipoAccion" id="tipo" required />
+
+                                        <label>Observaciones:</label>
+                                        <textarea asp-for="Observaciones" id="observaciones"></textarea>
+
+                                        <button type="button" class="btn btn-primary" id="btn-crear">Crear</button>
+                                    </form>
+
+                                    -->
+
+                                    <form method="post" id="form-crear" asp-page-handler="CrearAccion">
+                                        <!-- Campos ocultos -->
+                                        <input type="hidden" name="IdEmpleado" value="@Model.IdEmpleado" />
+                                        <input type="hidden" name="IdPuesto" value="@Model.IdPuesto" />
+
+                                        <div class="row mb-3">
+                                            <div class="col-md-6">
+                                                <div class="form-floating mb-3 mb-md-0">
+                                                    <input class="form-control" maxlength="500" type="text" id="descripcion" asp-for="Descripcion" placeholder="La descripcion de la accion" required />
+                                                    <label for="descripcion">Descripcion de accion</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-floating">
+                                                    <input class="form-control" type="date" id="fecha" asp-for="Fecha" placeholder="Ingrese la fecha" required />
+                                                    <label for="fecha">Fecha de la accion</label>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-floating mb-3">
+                                            <input class="form-control" type="text" maxlength="50" id="tipo" asp-for="TipoAccion" placeholder="Ingrese el tipo de accion" required />
+                                            <label for="tipo">Tipo de accion</label>
+                                        </div>
+
+                                        <div class="form-floating mb-3">
+                                            <textarea class="form-control" id="observaciones" maxlength="500" asp-for="Observaciones" placeholder="Ingrese las observaciones"></textarea>
+                                            <label for="observaciones">Observaciones</label>
+                                        </div>
+
+                                        <div class="mt-4 mb-0">
+                                            <div class="d-grid">
+                                                <button type="button" class="btn btn-primary btn-block" id="btn-crear">Crear</button>
+                                            </div>
+                                        </div>
+                                    </form>
+
+                                </div>
+
+                                <!--<p>IdEmpleado: @Model.IdEmpleado</p> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        document.getElementById("btn-crear").addEventListener("click", function (event) {
+            event.preventDefault(); // Evita el envío automático del formulario
+
+            // Obtener valores de los campos
+            const descripcion = document.getElementById("descripcion")?.value.trim() || "";
+            const fecha = document.getElementById("fecha")?.value.trim() || "";
+            const tipo = document.getElementById("tipo")?.value.trim() || "";
+            const observaciones = document.getElementById("observaciones")?.value.trim() || "";
+            const idEmpleado = document.querySelector("input[name='IdEmpleado']").value;
+            const idPuesto = document.querySelector("input[name='IdPuesto']").value;
+
+            // Validar que no haya campos vacíos
+            if (!descripcion || !fecha || !tipo || !observaciones || !idEmpleado || !idPuesto) {
+                Swal.fire({
+                    icon: "warning",
+                    title: "Campos Vacíos",
+                    text: "Por favor, complete todos los campos antes de continuar.",
+                });
+                return;
+            }
+
+            // Mostrar el mensaje de éxito directamente
+            Swal.fire({
+                icon: "success",
+                title: "¡Acción creada!",
+                text: "La acción ha sido creada exitosamente.",
+                confirmButtonText: "OK"
+            }).then(() => {
+                // Enviar el formulario automáticamente
+                document.getElementById("form-crear").submit();
+            });
+        });
+    </script>
+
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        document.getElementById("btn-crear").addEventListener("click", function (event) {
+            event.preventDefault(); // Evita el envío automático del formulario
+
+            // Obtener valores de los input
+            /*
+            const descripcion = document.getElementById("descripcion")?.value.trim() || "";
+            const fecha = document.getElementById("fecha")?.value.trim() || "";
+            const tipo = document.getElementById("tipo")?.value.trim() || "";
+            const observaciones = document.getElementById("observaciones")?.value.trim() || "";
+            const idEmpleadoInput = document.querySelector("input[name='idEmpleado']");
+            const idPuestoInput = document.querySelector("input[name='idPuesto']");
+
+            // Asegurarnos de que los campos existen antes de obtener su valor
+            const idEmpleado = idEmpleadoInput ? idEmpleadoInput.value.trim() : "";
+            const idPuesto = idPuestoInput ? idPuestoInput.value.trim() : "";
+
+            // Validar que no haya campos vacíos
+            if (!descripcion || !fecha || !tipo || !observaciones || !idEmpleado || !idPuesto) {
+                Swal.fire({
+                    icon: "warning",
+                    title: "Campos Vacíos",
+                    text: "Por favor, complete todos los campos antes de continuar.",
+                });
+                return; // Detener la ejecución si hay campos vacíos
+            }
+            */
+            // Mostrar el modal de confirmación
+            Swal.fire({
+                icon: "success",
+                title: "¡Acción creada!",
+                text: "La acción ha sido creada exitosamente.",
+                confirmButtonText: "OK"
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    document.getElementById("form-crear").submit();
+                }
+            });
+        });
+    </script>
+    -->
+
+     <!-- 
+    <script>
+        document.getElementById("btn-crear").addEventListener("click", function (event) {
+            const descripcion = document.getElementById("descripcion").value.trim();
+            const fecha = document.getElementById("fecha").value.trim();
+            const tipo = document.getElementById("tipo").value.trim();
+            const observaciones = document.getElementById("observaciones").value.trim();
+
+            // Obtener los valores de idEmpleado y idPuesto desde los campos ocultos
+            const idEmpleado = document.querySelector("input[name='idEmpleado']").value;
+            const idPuesto = document.querySelector("input[name='idPuesto']").value;
+
+            // Validar que no haya campos vacíos
+            if (descripcion === "" || fecha === "" || tipo === "" || observaciones === ""|| idEmpleado === ""|| idPuesto === "") {
+                Swal.fire({
+                    icon: "warning",
+                    title: "Campos Vacíos",
+                    text: "Por favor, complete todos los campos antes de continuar.",
+                });
+            } else {
+                Swal.fire({
+                    icon: "success",
+                    title: "¡Accion creada!",
+                    text: "La accion ha sido creada exitosamente.",
+                    confirmButtonText: "OK"
+                }).then((result) => {
+                    if (result.isConfirmed) {
+                        // Enviar el formulario usando el método tradicional POST
+                        document.getElementById("form-crear").submit();
+                    }
+                });
+            }
+        });
+    </script>
+    -->
+</body>
