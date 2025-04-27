@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="MySqlConnector" Version="2.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\AdministracionDePersonal.Entities\AdministracionDePersonal.Entities.csproj" />
     <ProjectReference Include="..\AdministracionDePersonal.Repository\AdministracionDePersonal.Repository.csproj" />
   </ItemGroup>

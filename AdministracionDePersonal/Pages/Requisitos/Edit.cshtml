@@ -1,0 +1,43 @@
+﻿@page
+@model AdministracionDePersonal.Pages.Requisitos.EditModel
+@{
+    ViewData["Title"] = "Editar Requisito";
+}
+
+<h1>Editar Requisito</h1>
+
+<h4>Requisito</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div class="form-group">
+                <label asp-for="Requisito.IdRequisito" class="control-label"></label>
+                <input asp-for="Requisito.IdRequisito" class="form-control" readonly />
+                <span asp-validation-for="Requisito.IdRequisito" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Requisito.IdPuesto" class="control-label"></label>
+                <input asp-for="Requisito.IdPuesto" class="form-control" />
+                <span asp-validation-for="Requisito.IdPuesto" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Requisito.Descripcion" class="control-label"></label>
+                <input asp-for="Requisito.Descripcion" class="form-control" />
+                <span asp-validation-for="Requisito.Descripcion" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Requisito.Tipo" class="control-label"></label>
+                <input asp-for="Requisito.Tipo" class="form-control" />
+                <span asp-validation-for="Requisito.Tipo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Guardar" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Volver a la lista</a>
+</div>
