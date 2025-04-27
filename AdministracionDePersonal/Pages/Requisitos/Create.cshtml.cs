@@ -2,21 +2,21 @@ using AdministracionDePersonal.Entities;
 using AdministracionDePersonal.Services.Abstract;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using AdministracionDePersonal.Servicess.Abstract;
-namespace AdministracionDePersonal.Pages.ParteOferente
-{
-    public class crearPuestoModel : PageModel
-    {
-        private readonly IPuestoService _puestoService;
 
-        public crearPuestoModel(IPuestoService puestoService)
+namespace AdministracionDePersonal.Pages.Requisitos
+{
+    public class CreateModel : PageModel
+    {
+        private readonly IRequisitoService _requisitoService;
+
+        public CreateModel(IRequisitoService requisitoService)
         {
-            _puestoService = puestoService;
-            Puesto = new Puesto();
+            _requisitoService = requisitoService;
+            Requisito = new Requisito();
         }
 
         [BindProperty]
-        public Puesto Puesto { get; set; }
+        public Requisito Requisito { get; set; }
 
         public IActionResult OnGet()
         {
@@ -30,7 +30,7 @@ namespace AdministracionDePersonal.Pages.ParteOferente
                 return Page();
             }
 
-            await _puestoService.InsertAsync(Puesto);
+            await _requisitoService.InsertAsync(Requisito);
 
             return RedirectToPage("Index");
         }

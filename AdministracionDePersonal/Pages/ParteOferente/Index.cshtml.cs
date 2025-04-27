@@ -1,4 +1,5 @@
 using AdministracionDePersonal.Entities;
+using AdministracionDePersonal.Services.Abstract;
 using AdministracionDePersonal.Servicess.Abstract;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
