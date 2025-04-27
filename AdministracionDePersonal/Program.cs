@@ -9,8 +9,12 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorPages();
 
 builder.Services.AddScoped<OferenteRepository>();
+
+builder.Services.AddScoped<PuestoRepository>();
 builder.Services.AddScoped<IOferenteService, OferenteService>();
 builder.Services.AddScoped<IDbConnectionFactory, DbConnectionFactory>();
+builder.Services.AddScoped<IPuestoService, PuestoService>();
+
 
 var app = builder.Build();
 
