@@ -1,0 +1,140 @@
+﻿@page
+@model AdminDePersonal.Pages.Areas.editarareaModel
+@{
+    ViewData["Title"] = "Editar Área";
+}
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Editar Área - AdminDePersonal</title>
+    <link href="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/style.min.css" rel="stylesheet" />
+    <link href="css/StyleSheet.css" rel="stylesheet" />
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body class="bg-White">
+    <div id="layoutAuthentication">
+        <div id="layoutAuthentication_content">
+            <main>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-7">
+                            <div class="card shadow-lg border-0 rounded-lg mt-5">
+                                <div class="card-header">
+                                    <img src="@Url.Content("~/img/Logo.jpeg")" alt="Logo" width="50" />
+                                    <h3 class="text-center font-weight-light my-4">Editar Área</h3>
+                                </div>
+
+                                <div class="card-body">
+                                    <form method="post" id="form-editar">
+                                        <input type="hidden" asp-for="AreaEdit.IdArea" />
+
+                                        <div class="row mb-3">
+                                            <div class="col-md-6">
+                                                <div class="form-floating mb-3 mb-md-0">
+                                                    <input class="form-control" asp-for="AreaEdit.IdArea" type="text" id="idArea" readonly />
+                                                    <label for="idArea">Código del Área</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-floating">
+                                                    <input class="form-control" asp-for="AreaEdit.Nombre" type="text" id="nombre" placeholder="Ingrese el nombre del área" />
+                                                    <label for="nombre">Nombre del Área</label>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-floating mb-3">
+                                            <input class="form-control" asp-for="AreaEdit.IdJefatura" type="text" id="idJefatura" placeholder="Ingrese la jefatura" />
+                                            <label for="idJefatura">Jefatura</label>
+                                        </div>
+
+                                        <div class="form-floating mb-3">
+                                            <textarea class="form-control" asp-for="AreaEdit.Descripcion" id="descripcion" placeholder="Ingrese la descripción"></textarea>
+                                            <label for="descripcion">Descripción</label>
+                                        </div>
+
+                                        <div class="mt-4 mb-0">
+                                            <div class="d-grid">
+                                                <button type="button" class="btn btn-primary btn-block" id="btn-editar">Guardar Cambios</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+
+                                <div class="card-footer text-center py-3">
+                                    <a asp-page="Index" class="d-block mt-3">Volver a la lista</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+        <div id="layoutAuthentication_footer">
+            <footer class="py-4 bg-light mt-auto">
+                <div class="container-fluid px-4">
+                    <div class="d-flex align-items-center justify-content-between small">
+                        <div class="text-muted">Copyright &copy; Your Website 2023</div>
+                        <div>
+                            <a href="#">Privacy Policy</a>
+                            &middot;
+                            <a href="#">Terms &amp; Conditions</a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/scripts.js"></script>
+
+    <script>
+        document.getElementById("btn-editar").addEventListener("click", function (event) {
+            const nombre = document.getElementById("nombre").value.trim();
+            const idJefatura = document.getElementById("idJefatura").value.trim();
+            const descripcion = document.getElementById("descripcion").value.trim();
+
+            if (nombre === "" || idJefatura === "" || descripcion === "") {
+                Swal.fire({
+                    icon: "warning",
+                    title: "Campos Vacíos",
+                    text: "Por favor, complete todos los campos antes de continuar.",
+                });
+            } else {
+                Swal.fire({
+                    title: "¿Estás seguro?",
+                    text: "¿Quieres cambiar los datos del área?",
+                    icon: "question",
+                    showCancelButton: true,
+                    confirmButtonColor: "#3085d6",
+                    cancelButtonColor: "#d33",
+                    confirmButtonText: "Sí, cambiar",
+                    cancelButtonText: "Cancelar"
+                }).then((result) => {
+                    if (result.isConfirmed) {
+                        Swal.fire({
+                            icon: "success",
+                            title: "¡Cambios Guardados!",
+                            text: "El área ha sido editada correctamente.",
+                            confirmButtonText: "OK"
+                        }).then((confirmResult) => {
+                            if (confirmResult.isConfirmed) {
+                                document.getElementById("form-editar").submit();
+                            }
+                        });
+                    }
+                });
+            }
+        });
+    </script>
+
+    </script>
+</body>

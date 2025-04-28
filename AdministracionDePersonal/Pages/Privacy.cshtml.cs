@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace AdministracionDePersonal.Pages
+
 {
     public class PrivacyModel : PageModel
     {

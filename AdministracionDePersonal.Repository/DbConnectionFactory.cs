@@ -1,6 +1,7 @@
 
 
 using MySqlConnector;
+
 using Microsoft.Extensions.Configuration;
 using System.Data;
 
@@ -17,6 +18,7 @@ using System.Threading.Tasks;
 
 
 namespace AdministracionDePersonal.Repository
+
 {
     public class DbConnectionFactory : IDbConnectionFactory
     {
