@@ -23,7 +23,8 @@ builder.Services.AddScoped<Area1Repository>();
 builder.Services.AddScoped<IAreaServices, AreaServices>();
 builder.Services.AddScoped<IRequisitoService, RequisitoService>();
 builder.Services.AddScoped<RequisitoRepository>();
-
+builder.Services.AddScoped<IEmpleadoService, EmpleadoService>();
+builder.Services.AddScoped<EmpleadoRepository>();
 builder.Services.AddScoped<IAccionService, AccionService>();
 builder.Services.AddScoped<AccionRepository>();
 builder.Services.AddScoped<OferenteRepository>();
