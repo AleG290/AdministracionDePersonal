@@ -6,28 +6,15 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\AdministracionDePersonal.Entities\AdministracionDePersonal.Entities.csproj" />
-    <ProjectReference Include="..\AdministracionDePersonal.Repository\AdministracionDePersonal.Repository.csproj" />
-  </ItemGroup>
-
-</Project>
-
-<Project Sdk="Microsoft.NET.Sdk">
-
-  <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <Optimize>True</Optimize>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="MySqlConnector" Version="2.4.0" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\AdministracionDePersonal.Entities\AdministracionDePersonal.Entities.csproj" />
     <ProjectReference Include="..\AdministracionDePersonal.Repository\AdministracionDePersonal.Repository.csproj" />
   </ItemGroup>
 
 </Project>
+
+

@@ -19,8 +19,5 @@ namespace AdministracionDePersonal.Entities
         public string TipoAccion { get; set; }
         public string Observaciones { get; set; }
         
-        //Parte alejandro
-        public string? NombreEmpleado { get; set; }
-        public string? NombreJefatura { get; set; }
     }
 }
