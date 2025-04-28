@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
 
-namespace AdminDePersonal.Pages
+namespace AdministracionDePersonal.Pages
 {
     using global::Areas.Entities.Areas.Entities;
     using global::Areas.Repository;

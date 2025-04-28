@@ -1,4 +1,5 @@
-﻿using Areas.Entities;
+﻿using AdministracionDePersonal.Repository;
+using Areas.Entities;
 using Areas.Entities.Areas.Entities;
 using Dapper;
 using System;
@@ -6,6 +7,7 @@ using System.Collections.Generic;
 using System.Data;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
+
 
 namespace Areas.Repository
 {

@@ -1,73 +1,97 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ghoxt\\Desktop\\AdministracionDePersonal\\",
+  "WorkspaceRootPath": "D:\\I Cuatri - 2025\\Unificar\\Pruebas\\1\\AdministracionDePersonal-Simon\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BBE8BCF3-2D4D-4941-9C15-DF54ACA66EC4}|AdministracionDePersonal\\AdministracionDePersonal.csproj|c:\\users\\ghoxt\\desktop\\administraciondepersonal\\administraciondepersonal\\pages\\parteoferente\\crearpuesto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BBE8BCF3-2D4D-4941-9C15-DF54ACA66EC4}|AdministracionDePersonal\\AdministracionDePersonal.csproj|solutionrelative:administraciondepersonal\\pages\\parteoferente\\crearpuesto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BBE8BCF3-2D4D-4941-9C15-DF54ACA66EC4}|AdministracionDePersonal\\AdministracionDePersonal.csproj|c:\\users\\ghoxt\\desktop\\administraciondepersonal\\administraciondepersonal\\pages\\parteoferente\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BBE8BCF3-2D4D-4941-9C15-DF54ACA66EC4}|AdministracionDePersonal\\AdministracionDePersonal.csproj|solutionrelative:administraciondepersonal\\pages\\parteoferente\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BBE8BCF3-2D4D-4941-9C15-DF54ACA66EC4}|AdministracionDePersonal\\AdministracionDePersonal.csproj|c:\\users\\ghoxt\\desktop\\administraciondepersonal\\administraciondepersonal\\pages\\parteoferente\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BBE8BCF3-2D4D-4941-9C15-DF54ACA66EC4}|AdministracionDePersonal\\AdministracionDePersonal.csproj|solutionrelative:administraciondepersonal\\pages\\parteoferente\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{14044BD0-8001-4B62-89B3-BCEAD59FE116}|AdministracionDePersonal.Servicess\\AdministracionDePersonal.Servicess.csproj|c:\\users\\ghoxt\\desktop\\administraciondepersonal\\administraciondepersonal.servicess\\puestoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14044BD0-8001-4B62-89B3-BCEAD59FE116}|AdministracionDePersonal.Servicess\\AdministracionDePersonal.Servicess.csproj|solutionrelative:administraciondepersonal.servicess\\puestoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA21D804-D4B1-4B46-86E9-090D5C177110}|AdministracionDePersonal.Repository\\AdministracionDePersonal.Repository.csproj|c:\\users\\ghoxt\\desktop\\administraciondepersonal\\administraciondepersonal.repository\\puestorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA21D804-D4B1-4B46-86E9-090D5C177110}|AdministracionDePersonal.Repository\\AdministracionDePersonal.Repository.csproj|solutionrelative:administraciondepersonal.repository\\puestorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{14044BD0-8001-4B62-89B3-BCEAD59FE116}|AdministracionDePersonal.Servicess\\AdministracionDePersonal.Servicess.csproj|c:\\users\\ghoxt\\desktop\\administraciondepersonal\\administraciondepersonal.servicess\\abstract\\ipuestoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14044BD0-8001-4B62-89B3-BCEAD59FE116}|AdministracionDePersonal.Servicess\\AdministracionDePersonal.Servicess.csproj|solutionrelative:administraciondepersonal.servicess\\abstract\\ipuestoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BBE8BCF3-2D4D-4941-9C15-DF54ACA66EC4}|AdministracionDePersonal\\AdministracionDePersonal.csproj|c:\\users\\ghoxt\\desktop\\administraciondepersonal\\administraciondepersonal\\pages\\parteoferente\\crearpuesto.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BBE8BCF3-2D4D-4941-9C15-DF54ACA66EC4}|AdministracionDePersonal\\AdministracionDePersonal.csproj|solutionrelative:administraciondepersonal\\pages\\parteoferente\\crearpuesto.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BBE8BCF3-2D4D-4941-9C15-DF54ACA66EC4}|AdministracionDePersonal\\AdministracionDePersonal.csproj|c:\\users\\ghoxt\\desktop\\administraciondepersonal\\administraciondepersonal\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BBE8BCF3-2D4D-4941-9C15-DF54ACA66EC4}|AdministracionDePersonal\\AdministracionDePersonal.csproj|solutionrelative:administraciondepersonal\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BBE8BCF3-2D4D-4941-9C15-DF54ACA66EC4}|AdministracionDePersonal\\AdministracionDePersonal.csproj|c:\\users\\ghoxt\\desktop\\administraciondepersonal\\administraciondepersonal\\pages\\parteoferente\\editarpuesto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BBE8BCF3-2D4D-4941-9C15-DF54ACA66EC4}|AdministracionDePersonal\\AdministracionDePersonal.csproj|solutionrelative:administraciondepersonal\\pages\\parteoferente\\editarpuesto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BBE8BCF3-2D4D-4941-9C15-DF54ACA66EC4}|AdministracionDePersonal\\AdministracionDePersonal.csproj|c:\\users\\ghoxt\\desktop\\administraciondepersonal\\administraciondepersonal\\pages\\parteoferente\\contratar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BBE8BCF3-2D4D-4941-9C15-DF54ACA66EC4}|AdministracionDePersonal\\AdministracionDePersonal.csproj|solutionrelative:administraciondepersonal\\pages\\parteoferente\\contratar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BBE8BCF3-2D4D-4941-9C15-DF54ACA66EC4}|AdministracionDePersonal\\AdministracionDePersonal.csproj|c:\\users\\ghoxt\\desktop\\administraciondepersonal\\administraciondepersonal\\pages\\parteoferente\\contratar.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BBE8BCF3-2D4D-4941-9C15-DF54ACA66EC4}|AdministracionDePersonal\\AdministracionDePersonal.csproj|solutionrelative:administraciondepersonal\\pages\\parteoferente\\contratar.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{14044BD0-8001-4B62-89B3-BCEAD59FE116}|AdministracionDePersonal.Servicess\\AdministracionDePersonal.Servicess.csproj|c:\\users\\ghoxt\\desktop\\administraciondepersonal\\administraciondepersonal.servicess\\abstract\\ioferenteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14044BD0-8001-4B62-89B3-BCEAD59FE116}|AdministracionDePersonal.Servicess\\AdministracionDePersonal.Servicess.csproj|solutionrelative:administraciondepersonal.servicess\\abstract\\ioferenteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BA21D804-D4B1-4B46-86E9-090D5C177110}|AdministracionDePersonal.Repository\\AdministracionDePersonal.Repository.csproj|c:\\users\\ghoxt\\desktop\\administraciondepersonal\\administraciondepersonal.repository\\idbconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BA21D804-D4B1-4B46-86E9-090D5C177110}|AdministracionDePersonal.Repository\\AdministracionDePersonal.Repository.csproj|solutionrelative:administraciondepersonal.repository\\idbconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B29748D-643F-440C-94AA-F46D851258F1}|AdministracionDePersonal.Entities\\AdministracionDePersonal.Entities.csproj|c:\\users\\ghoxt\\desktop\\administraciondepersonal\\administraciondepersonal.entities\\puesto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B29748D-643F-440C-94AA-F46D851258F1}|AdministracionDePersonal.Entities\\AdministracionDePersonal.Entities.csproj|solutionrelative:administraciondepersonal.entities\\puesto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BBE8BCF3-2D4D-4941-9C15-DF54ACA66EC4}|AdministracionDePersonal\\AdministracionDePersonal.csproj|c:\\users\\ghoxt\\desktop\\administraciondepersonal\\administraciondepersonal\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{BBE8BCF3-2D4D-4941-9C15-DF54ACA66EC4}|AdministracionDePersonal\\AdministracionDePersonal.csproj|d:\\i cuatri - 2025\\unificar\\pruebas\\1\\administraciondepersonal-simon\\administraciondepersonal\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{BBE8BCF3-2D4D-4941-9C15-DF54ACA66EC4}|AdministracionDePersonal\\AdministracionDePersonal.csproj|solutionrelative:administraciondepersonal\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BA21D804-D4B1-4B46-86E9-090D5C177110}|AdministracionDePersonal.Repository\\AdministracionDePersonal.Repository.csproj|c:\\users\\ghoxt\\desktop\\administraciondepersonal\\administraciondepersonal.repository\\oferenterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BBE8BCF3-2D4D-4941-9C15-DF54ACA66EC4}|AdministracionDePersonal\\AdministracionDePersonal.csproj|d:\\i cuatri - 2025\\unificar\\pruebas\\1\\administraciondepersonal-simon\\administraciondepersonal\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBE8BCF3-2D4D-4941-9C15-DF54ACA66EC4}|AdministracionDePersonal\\AdministracionDePersonal.csproj|solutionrelative:administraciondepersonal\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBE8BCF3-2D4D-4941-9C15-DF54ACA66EC4}|AdministracionDePersonal\\AdministracionDePersonal.csproj|d:\\i cuatri - 2025\\unificar\\pruebas\\1\\administraciondepersonal-simon\\administraciondepersonal\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BBE8BCF3-2D4D-4941-9C15-DF54ACA66EC4}|AdministracionDePersonal\\AdministracionDePersonal.csproj|solutionrelative:administraciondepersonal\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBE8BCF3-2D4D-4941-9C15-DF54ACA66EC4}|AdministracionDePersonal\\AdministracionDePersonal.csproj|d:\\i cuatri - 2025\\unificar\\pruebas\\1\\administraciondepersonal-simon\\administraciondepersonal\\administraciondepersonal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BBE8BCF3-2D4D-4941-9C15-DF54ACA66EC4}|AdministracionDePersonal\\AdministracionDePersonal.csproj|solutionrelative:administraciondepersonal\\administraciondepersonal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA21D804-D4B1-4B46-86E9-090D5C177110}|AdministracionDePersonal.Repository\\AdministracionDePersonal.Repository.csproj|d:\\i cuatri - 2025\\unificar\\pruebas\\1\\administraciondepersonal-simon\\administraciondepersonal.repository\\area1repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA21D804-D4B1-4B46-86E9-090D5C177110}|AdministracionDePersonal.Repository\\AdministracionDePersonal.Repository.csproj|solutionrelative:administraciondepersonal.repository\\area1repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBE8BCF3-2D4D-4941-9C15-DF54ACA66EC4}|AdministracionDePersonal\\AdministracionDePersonal.csproj|d:\\i cuatri - 2025\\unificar\\pruebas\\1\\administraciondepersonal-simon\\administraciondepersonal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBE8BCF3-2D4D-4941-9C15-DF54ACA66EC4}|AdministracionDePersonal\\AdministracionDePersonal.csproj|solutionrelative:administraciondepersonal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA21D804-D4B1-4B46-86E9-090D5C177110}|AdministracionDePersonal.Repository\\AdministracionDePersonal.Repository.csproj|d:\\i cuatri - 2025\\unificar\\pruebas\\1\\administraciondepersonal-simon\\administraciondepersonal.repository\\puestorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA21D804-D4B1-4B46-86E9-090D5C177110}|AdministracionDePersonal.Repository\\AdministracionDePersonal.Repository.csproj|solutionrelative:administraciondepersonal.repository\\puestorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA21D804-D4B1-4B46-86E9-090D5C177110}|AdministracionDePersonal.Repository\\AdministracionDePersonal.Repository.csproj|d:\\i cuatri - 2025\\unificar\\pruebas\\1\\administraciondepersonal-simon\\administraciondepersonal.repository\\idbconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA21D804-D4B1-4B46-86E9-090D5C177110}|AdministracionDePersonal.Repository\\AdministracionDePersonal.Repository.csproj|solutionrelative:administraciondepersonal.repository\\idbconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BA21D804-D4B1-4B46-86E9-090D5C177110}|AdministracionDePersonal.Repository\\AdministracionDePersonal.Repository.csproj|d:\\i cuatri - 2025\\unificar\\pruebas\\1\\administraciondepersonal-simon\\administraciondepersonal.repository\\oferenterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BA21D804-D4B1-4B46-86E9-090D5C177110}|AdministracionDePersonal.Repository\\AdministracionDePersonal.Repository.csproj|solutionrelative:administraciondepersonal.repository\\oferenterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BBE8BCF3-2D4D-4941-9C15-DF54ACA66EC4}|AdministracionDePersonal\\AdministracionDePersonal.csproj|c:\\users\\ghoxt\\desktop\\administraciondepersonal\\administraciondepersonal\\pages\\parteoferente\\elegirpuesto.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BA21D804-D4B1-4B46-86E9-090D5C177110}|AdministracionDePersonal.Repository\\AdministracionDePersonal.Repository.csproj|d:\\i cuatri - 2025\\unificar\\pruebas\\1\\administraciondepersonal-simon\\administraciondepersonal.repository\\dbconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BA21D804-D4B1-4B46-86E9-090D5C177110}|AdministracionDePersonal.Repository\\AdministracionDePersonal.Repository.csproj|solutionrelative:administraciondepersonal.repository\\dbconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBE8BCF3-2D4D-4941-9C15-DF54ACA66EC4}|AdministracionDePersonal\\AdministracionDePersonal.csproj|d:\\i cuatri - 2025\\unificar\\pruebas\\1\\administraciondepersonal-simon\\administraciondepersonal\\pages\\parteoferente\\crearpuesto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BBE8BCF3-2D4D-4941-9C15-DF54ACA66EC4}|AdministracionDePersonal\\AdministracionDePersonal.csproj|solutionrelative:administraciondepersonal\\pages\\parteoferente\\crearpuesto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBE8BCF3-2D4D-4941-9C15-DF54ACA66EC4}|AdministracionDePersonal\\AdministracionDePersonal.csproj|d:\\i cuatri - 2025\\unificar\\pruebas\\1\\administraciondepersonal-simon\\administraciondepersonal\\pages\\parteoferente\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BBE8BCF3-2D4D-4941-9C15-DF54ACA66EC4}|AdministracionDePersonal\\AdministracionDePersonal.csproj|solutionrelative:administraciondepersonal\\pages\\parteoferente\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBE8BCF3-2D4D-4941-9C15-DF54ACA66EC4}|AdministracionDePersonal\\AdministracionDePersonal.csproj|d:\\i cuatri - 2025\\unificar\\pruebas\\1\\administraciondepersonal-simon\\administraciondepersonal\\pages\\parteoferente\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBE8BCF3-2D4D-4941-9C15-DF54ACA66EC4}|AdministracionDePersonal\\AdministracionDePersonal.csproj|solutionrelative:administraciondepersonal\\pages\\parteoferente\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14044BD0-8001-4B62-89B3-BCEAD59FE116}|AdministracionDePersonal.Servicess\\AdministracionDePersonal.Servicess.csproj|d:\\i cuatri - 2025\\unificar\\pruebas\\1\\administraciondepersonal-simon\\administraciondepersonal.servicess\\puestoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14044BD0-8001-4B62-89B3-BCEAD59FE116}|AdministracionDePersonal.Servicess\\AdministracionDePersonal.Servicess.csproj|solutionrelative:administraciondepersonal.servicess\\puestoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14044BD0-8001-4B62-89B3-BCEAD59FE116}|AdministracionDePersonal.Servicess\\AdministracionDePersonal.Servicess.csproj|d:\\i cuatri - 2025\\unificar\\pruebas\\1\\administraciondepersonal-simon\\administraciondepersonal.servicess\\abstract\\ipuestoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14044BD0-8001-4B62-89B3-BCEAD59FE116}|AdministracionDePersonal.Servicess\\AdministracionDePersonal.Servicess.csproj|solutionrelative:administraciondepersonal.servicess\\abstract\\ipuestoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBE8BCF3-2D4D-4941-9C15-DF54ACA66EC4}|AdministracionDePersonal\\AdministracionDePersonal.csproj|d:\\i cuatri - 2025\\unificar\\pruebas\\1\\administraciondepersonal-simon\\administraciondepersonal\\pages\\parteoferente\\crearpuesto.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBE8BCF3-2D4D-4941-9C15-DF54ACA66EC4}|AdministracionDePersonal\\AdministracionDePersonal.csproj|solutionrelative:administraciondepersonal\\pages\\parteoferente\\crearpuesto.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBE8BCF3-2D4D-4941-9C15-DF54ACA66EC4}|AdministracionDePersonal\\AdministracionDePersonal.csproj|d:\\i cuatri - 2025\\unificar\\pruebas\\1\\administraciondepersonal-simon\\administraciondepersonal\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BBE8BCF3-2D4D-4941-9C15-DF54ACA66EC4}|AdministracionDePersonal\\AdministracionDePersonal.csproj|solutionrelative:administraciondepersonal\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBE8BCF3-2D4D-4941-9C15-DF54ACA66EC4}|AdministracionDePersonal\\AdministracionDePersonal.csproj|d:\\i cuatri - 2025\\unificar\\pruebas\\1\\administraciondepersonal-simon\\administraciondepersonal\\pages\\parteoferente\\editarpuesto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BBE8BCF3-2D4D-4941-9C15-DF54ACA66EC4}|AdministracionDePersonal\\AdministracionDePersonal.csproj|solutionrelative:administraciondepersonal\\pages\\parteoferente\\editarpuesto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBE8BCF3-2D4D-4941-9C15-DF54ACA66EC4}|AdministracionDePersonal\\AdministracionDePersonal.csproj|d:\\i cuatri - 2025\\unificar\\pruebas\\1\\administraciondepersonal-simon\\administraciondepersonal\\pages\\parteoferente\\contratar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BBE8BCF3-2D4D-4941-9C15-DF54ACA66EC4}|AdministracionDePersonal\\AdministracionDePersonal.csproj|solutionrelative:administraciondepersonal\\pages\\parteoferente\\contratar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBE8BCF3-2D4D-4941-9C15-DF54ACA66EC4}|AdministracionDePersonal\\AdministracionDePersonal.csproj|d:\\i cuatri - 2025\\unificar\\pruebas\\1\\administraciondepersonal-simon\\administraciondepersonal\\pages\\parteoferente\\contratar.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBE8BCF3-2D4D-4941-9C15-DF54ACA66EC4}|AdministracionDePersonal\\AdministracionDePersonal.csproj|solutionrelative:administraciondepersonal\\pages\\parteoferente\\contratar.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14044BD0-8001-4B62-89B3-BCEAD59FE116}|AdministracionDePersonal.Servicess\\AdministracionDePersonal.Servicess.csproj|d:\\i cuatri - 2025\\unificar\\pruebas\\1\\administraciondepersonal-simon\\administraciondepersonal.servicess\\abstract\\ioferenteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14044BD0-8001-4B62-89B3-BCEAD59FE116}|AdministracionDePersonal.Servicess\\AdministracionDePersonal.Servicess.csproj|solutionrelative:administraciondepersonal.servicess\\abstract\\ioferenteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B29748D-643F-440C-94AA-F46D851258F1}|AdministracionDePersonal.Entities\\AdministracionDePersonal.Entities.csproj|d:\\i cuatri - 2025\\unificar\\pruebas\\1\\administraciondepersonal-simon\\administraciondepersonal.entities\\puesto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B29748D-643F-440C-94AA-F46D851258F1}|AdministracionDePersonal.Entities\\AdministracionDePersonal.Entities.csproj|solutionrelative:administraciondepersonal.entities\\puesto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBE8BCF3-2D4D-4941-9C15-DF54ACA66EC4}|AdministracionDePersonal\\AdministracionDePersonal.csproj|d:\\i cuatri - 2025\\unificar\\pruebas\\1\\administraciondepersonal-simon\\administraciondepersonal\\pages\\parteoferente\\elegirpuesto.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BBE8BCF3-2D4D-4941-9C15-DF54ACA66EC4}|AdministracionDePersonal\\AdministracionDePersonal.csproj|solutionrelative:administraciondepersonal\\pages\\parteoferente\\elegirpuesto.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -78,15 +102,119 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "D:\\I Cuatri - 2025\\Unificar\\Pruebas\\1\\AdministracionDePersonal-Simon\\AdministracionDePersonal\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "AdministracionDePersonal\\Pages\\Index.cshtml.cs",
+              "ToolTip": "D:\\I Cuatri - 2025\\Unificar\\Pruebas\\1\\AdministracionDePersonal-Simon\\AdministracionDePersonal\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "AdministracionDePersonal\\Pages\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T16:02:03.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\I Cuatri - 2025\\Unificar\\Pruebas\\1\\AdministracionDePersonal-Simon\\AdministracionDePersonal\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "AdministracionDePersonal\\Pages\\Index.cshtml",
+              "ToolTip": "D:\\I Cuatri - 2025\\Unificar\\Pruebas\\1\\AdministracionDePersonal-Simon\\AdministracionDePersonal\\Pages\\Index.cshtml",
+              "RelativeToolTip": "AdministracionDePersonal\\Pages\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-28T16:01:44.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\I Cuatri - 2025\\Unificar\\Pruebas\\1\\AdministracionDePersonal-Simon\\AdministracionDePersonal\\Program.cs",
+              "RelativeDocumentMoniker": "AdministracionDePersonal\\Program.cs",
+              "ToolTip": "D:\\I Cuatri - 2025\\Unificar\\Pruebas\\1\\AdministracionDePersonal-Simon\\AdministracionDePersonal\\Program.cs",
+              "RelativeToolTip": "AdministracionDePersonal\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABAAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T15:58:07.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DbConnectionFactory.cs",
+              "DocumentMoniker": "D:\\I Cuatri - 2025\\Unificar\\Pruebas\\1\\AdministracionDePersonal-Simon\\AdministracionDePersonal.Repository\\DbConnectionFactory.cs",
+              "RelativeDocumentMoniker": "AdministracionDePersonal.Repository\\DbConnectionFactory.cs",
+              "ToolTip": "D:\\I Cuatri - 2025\\Unificar\\Pruebas\\1\\AdministracionDePersonal-Simon\\AdministracionDePersonal.Repository\\DbConnectionFactory.cs",
+              "RelativeToolTip": "AdministracionDePersonal.Repository\\DbConnectionFactory.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T15:54:02.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdministracionDePersonal",
+              "DocumentMoniker": "D:\\I Cuatri - 2025\\Unificar\\Pruebas\\1\\AdministracionDePersonal-Simon\\AdministracionDePersonal\\AdministracionDePersonal.csproj",
+              "RelativeDocumentMoniker": "AdministracionDePersonal\\AdministracionDePersonal.csproj",
+              "ToolTip": "D:\\I Cuatri - 2025\\Unificar\\Pruebas\\1\\AdministracionDePersonal-Simon\\AdministracionDePersonal\\AdministracionDePersonal.csproj",
+              "RelativeToolTip": "AdministracionDePersonal\\AdministracionDePersonal.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-28T15:51:30.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Area1Repository.cs",
+              "DocumentMoniker": "D:\\I Cuatri - 2025\\Unificar\\Pruebas\\1\\AdministracionDePersonal-Simon\\AdministracionDePersonal.Repository\\Area1Repository.cs",
+              "RelativeDocumentMoniker": "AdministracionDePersonal.Repository\\Area1Repository.cs",
+              "ToolTip": "D:\\I Cuatri - 2025\\Unificar\\Pruebas\\1\\AdministracionDePersonal-Simon\\AdministracionDePersonal.Repository\\Area1Repository.cs",
+              "RelativeToolTip": "AdministracionDePersonal.Repository\\Area1Repository.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAxwA8AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T15:51:16.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PuestoRepository.cs",
+              "DocumentMoniker": "D:\\I Cuatri - 2025\\Unificar\\Pruebas\\1\\AdministracionDePersonal-Simon\\AdministracionDePersonal.Repository\\PuestoRepository.cs",
+              "RelativeDocumentMoniker": "AdministracionDePersonal.Repository\\PuestoRepository.cs",
+              "ToolTip": "D:\\I Cuatri - 2025\\Unificar\\Pruebas\\1\\AdministracionDePersonal-Simon\\AdministracionDePersonal.Repository\\PuestoRepository.cs",
+              "RelativeToolTip": "AdministracionDePersonal.Repository\\PuestoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T18:41:12.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\I Cuatri - 2025\\Unificar\\Pruebas\\1\\AdministracionDePersonal-Simon\\AdministracionDePersonal\\appsettings.json",
+              "RelativeDocumentMoniker": "AdministracionDePersonal\\appsettings.json",
+              "ToolTip": "D:\\I Cuatri - 2025\\Unificar\\Pruebas\\1\\AdministracionDePersonal-Simon\\AdministracionDePersonal\\appsettings.json",
+              "RelativeToolTip": "AdministracionDePersonal\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-17T18:12:31.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "crearPuesto.cshtml",
-              "DocumentMoniker": "C:\\Users\\ghoxt\\Desktop\\AdministracionDePersonal\\AdministracionDePersonal\\Pages\\ParteOferente\\crearPuesto.cshtml",
+              "DocumentMoniker": "D:\\I Cuatri - 2025\\Unificar\\Pruebas\\1\\AdministracionDePersonal-Simon\\AdministracionDePersonal\\Pages\\ParteOferente\\crearPuesto.cshtml",
               "RelativeDocumentMoniker": "AdministracionDePersonal\\Pages\\ParteOferente\\crearPuesto.cshtml",
-              "ToolTip": "C:\\Users\\ghoxt\\Desktop\\AdministracionDePersonal\\AdministracionDePersonal\\Pages\\ParteOferente\\crearPuesto.cshtml",
+              "ToolTip": "D:\\I Cuatri - 2025\\Unificar\\Pruebas\\1\\AdministracionDePersonal-Simon\\AdministracionDePersonal\\Pages\\ParteOferente\\crearPuesto.cshtml",
               "RelativeToolTip": "AdministracionDePersonal\\Pages\\ParteOferente\\crearPuesto.cshtml",
               "ViewState": "AgIAADAAAAAAAAAAAAAAAE4AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -95,23 +223,61 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Contratar.cshtml",
-              "DocumentMoniker": "C:\\Users\\ghoxt\\Desktop\\AdministracionDePersonal\\AdministracionDePersonal\\Pages\\ParteOferente\\Contratar.cshtml",
-              "RelativeDocumentMoniker": "AdministracionDePersonal\\Pages\\ParteOferente\\Contratar.cshtml",
-              "ToolTip": "C:\\Users\\ghoxt\\Desktop\\AdministracionDePersonal\\AdministracionDePersonal\\Pages\\ParteOferente\\Contratar.cshtml",
-              "RelativeToolTip": "AdministracionDePersonal\\Pages\\ParteOferente\\Contratar.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAAUAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-16T15:48:39.184Z"
+              "DocumentIndex": 7,
+              "Title": "IDbConnectionFactory.cs",
+              "DocumentMoniker": "D:\\I Cuatri - 2025\\Unificar\\Pruebas\\1\\AdministracionDePersonal-Simon\\AdministracionDePersonal.Repository\\IDbConnectionFactory.cs",
+              "RelativeDocumentMoniker": "AdministracionDePersonal.Repository\\IDbConnectionFactory.cs",
+              "ToolTip": "D:\\I Cuatri - 2025\\Unificar\\Pruebas\\1\\AdministracionDePersonal-Simon\\AdministracionDePersonal.Repository\\IDbConnectionFactory.cs",
+              "RelativeToolTip": "AdministracionDePersonal.Repository\\IDbConnectionFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T18:52:18.076Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
+              "Title": "OferenteRepository.cs",
+              "DocumentMoniker": "D:\\I Cuatri - 2025\\Unificar\\Pruebas\\1\\AdministracionDePersonal-Simon\\AdministracionDePersonal.Repository\\OferenteRepository.cs",
+              "RelativeDocumentMoniker": "AdministracionDePersonal.Repository\\OferenteRepository.cs",
+              "ToolTip": "D:\\I Cuatri - 2025\\Unificar\\Pruebas\\1\\AdministracionDePersonal-Simon\\AdministracionDePersonal.Repository\\OferenteRepository.cs",
+              "RelativeToolTip": "AdministracionDePersonal.Repository\\OferenteRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T15:49:21.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PuestoService.cs",
+              "DocumentMoniker": "D:\\I Cuatri - 2025\\Unificar\\Pruebas\\1\\AdministracionDePersonal-Simon\\AdministracionDePersonal.Servicess\\PuestoService.cs",
+              "RelativeDocumentMoniker": "AdministracionDePersonal.Servicess\\PuestoService.cs",
+              "ToolTip": "D:\\I Cuatri - 2025\\Unificar\\Pruebas\\1\\AdministracionDePersonal-Simon\\AdministracionDePersonal.Servicess\\PuestoService.cs",
+              "RelativeToolTip": "AdministracionDePersonal.Servicess\\PuestoService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T18:40:25.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "D:\\I Cuatri - 2025\\Unificar\\Pruebas\\1\\AdministracionDePersonal-Simon\\AdministracionDePersonal\\Pages\\ParteOferente\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "AdministracionDePersonal\\Pages\\ParteOferente\\Index.cshtml.cs",
+              "ToolTip": "D:\\I Cuatri - 2025\\Unificar\\Pruebas\\1\\AdministracionDePersonal-Simon\\AdministracionDePersonal\\Pages\\ParteOferente\\Index.cshtml.cs",
+              "RelativeToolTip": "AdministracionDePersonal\\Pages\\ParteOferente\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T19:02:26.129Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "IPuestoService.cs",
-              "DocumentMoniker": "C:\\Users\\ghoxt\\Desktop\\AdministracionDePersonal\\AdministracionDePersonal.Servicess\\Abstract\\IPuestoService.cs",
+              "DocumentMoniker": "D:\\I Cuatri - 2025\\Unificar\\Pruebas\\1\\AdministracionDePersonal-Simon\\AdministracionDePersonal.Servicess\\Abstract\\IPuestoService.cs",
               "RelativeDocumentMoniker": "AdministracionDePersonal.Servicess\\Abstract\\IPuestoService.cs",
-              "ToolTip": "C:\\Users\\ghoxt\\Desktop\\AdministracionDePersonal\\AdministracionDePersonal.Servicess\\Abstract\\IPuestoService.cs",
+              "ToolTip": "D:\\I Cuatri - 2025\\Unificar\\Pruebas\\1\\AdministracionDePersonal-Simon\\AdministracionDePersonal.Servicess\\Abstract\\IPuestoService.cs",
               "RelativeToolTip": "AdministracionDePersonal.Servicess\\Abstract\\IPuestoService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -119,50 +285,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\ghoxt\\Desktop\\AdministracionDePersonal\\AdministracionDePersonal\\Pages\\ParteOferente\\Index.cshtml.cs",
-              "RelativeDocumentMoniker": "AdministracionDePersonal\\Pages\\ParteOferente\\Index.cshtml.cs",
-              "ToolTip": "C:\\Users\\ghoxt\\Desktop\\AdministracionDePersonal\\AdministracionDePersonal\\Pages\\ParteOferente\\Index.cshtml.cs",
-              "RelativeToolTip": "AdministracionDePersonal\\Pages\\ParteOferente\\Index.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T19:02:26.129Z",
-              "EditorCaption": ""
+              "DocumentIndex": 18,
+              "Title": "Contratar.cshtml",
+              "DocumentMoniker": "D:\\I Cuatri - 2025\\Unificar\\Pruebas\\1\\AdministracionDePersonal-Simon\\AdministracionDePersonal\\Pages\\ParteOferente\\Contratar.cshtml",
+              "RelativeDocumentMoniker": "AdministracionDePersonal\\Pages\\ParteOferente\\Contratar.cshtml",
+              "ToolTip": "D:\\I Cuatri - 2025\\Unificar\\Pruebas\\1\\AdministracionDePersonal-Simon\\AdministracionDePersonal\\Pages\\ParteOferente\\Contratar.cshtml",
+              "RelativeToolTip": "AdministracionDePersonal\\Pages\\ParteOferente\\Contratar.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAUAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-16T15:48:39.184Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PuestoService.cs",
-              "DocumentMoniker": "C:\\Users\\ghoxt\\Desktop\\AdministracionDePersonal\\AdministracionDePersonal.Servicess\\PuestoService.cs",
-              "RelativeDocumentMoniker": "AdministracionDePersonal.Servicess\\PuestoService.cs",
-              "ToolTip": "C:\\Users\\ghoxt\\Desktop\\AdministracionDePersonal\\AdministracionDePersonal.Servicess\\PuestoService.cs",
-              "RelativeToolTip": "AdministracionDePersonal.Servicess\\PuestoService.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T18:40:25.062Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PuestoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ghoxt\\Desktop\\AdministracionDePersonal\\AdministracionDePersonal.Repository\\PuestoRepository.cs",
-              "RelativeDocumentMoniker": "AdministracionDePersonal.Repository\\PuestoRepository.cs",
-              "ToolTip": "C:\\Users\\ghoxt\\Desktop\\AdministracionDePersonal\\AdministracionDePersonal.Repository\\PuestoRepository.cs",
-              "RelativeToolTip": "AdministracionDePersonal.Repository\\PuestoRepository.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAA7wD4AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T18:41:12.464Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 16,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\ghoxt\\Desktop\\AdministracionDePersonal\\AdministracionDePersonal\\Pages\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "D:\\I Cuatri - 2025\\Unificar\\Pruebas\\1\\AdministracionDePersonal-Simon\\AdministracionDePersonal\\Pages\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "AdministracionDePersonal\\Pages\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\ghoxt\\Desktop\\AdministracionDePersonal\\AdministracionDePersonal\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\I Cuatri - 2025\\Unificar\\Pruebas\\1\\AdministracionDePersonal-Simon\\AdministracionDePersonal\\Pages\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "AdministracionDePersonal\\Pages\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAABgAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -170,24 +309,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\ghoxt\\Desktop\\AdministracionDePersonal\\AdministracionDePersonal\\Pages\\ParteOferente\\Index.cshtml",
+              "DocumentMoniker": "D:\\I Cuatri - 2025\\Unificar\\Pruebas\\1\\AdministracionDePersonal-Simon\\AdministracionDePersonal\\Pages\\ParteOferente\\Index.cshtml",
               "RelativeDocumentMoniker": "AdministracionDePersonal\\Pages\\ParteOferente\\Index.cshtml",
-              "ToolTip": "C:\\Users\\ghoxt\\Desktop\\AdministracionDePersonal\\AdministracionDePersonal\\Pages\\ParteOferente\\Index.cshtml",
+              "ToolTip": "D:\\I Cuatri - 2025\\Unificar\\Pruebas\\1\\AdministracionDePersonal-Simon\\AdministracionDePersonal\\Pages\\ParteOferente\\Index.cshtml",
               "RelativeToolTip": "AdministracionDePersonal\\Pages\\ParteOferente\\Index.cshtml",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-17T18:59:40.191Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-17T18:59:40.191Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 15,
               "Title": "crearPuesto.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\ghoxt\\Desktop\\AdministracionDePersonal\\AdministracionDePersonal\\Pages\\ParteOferente\\crearPuesto.cshtml.cs",
+              "DocumentMoniker": "D:\\I Cuatri - 2025\\Unificar\\Pruebas\\1\\AdministracionDePersonal-Simon\\AdministracionDePersonal\\Pages\\ParteOferente\\crearPuesto.cshtml.cs",
               "RelativeDocumentMoniker": "AdministracionDePersonal\\Pages\\ParteOferente\\crearPuesto.cshtml.cs",
-              "ToolTip": "C:\\Users\\ghoxt\\Desktop\\AdministracionDePersonal\\AdministracionDePersonal\\Pages\\ParteOferente\\crearPuesto.cshtml.cs",
+              "ToolTip": "D:\\I Cuatri - 2025\\Unificar\\Pruebas\\1\\AdministracionDePersonal-Simon\\AdministracionDePersonal\\Pages\\ParteOferente\\crearPuesto.cshtml.cs",
               "RelativeToolTip": "AdministracionDePersonal\\Pages\\ParteOferente\\crearPuesto.cshtml.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAQwAsAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -195,11 +333,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 17,
               "Title": "editarPuesto.cshtml",
-              "DocumentMoniker": "C:\\Users\\ghoxt\\Desktop\\AdministracionDePersonal\\AdministracionDePersonal\\Pages\\ParteOferente\\editarPuesto.cshtml",
+              "DocumentMoniker": "D:\\I Cuatri - 2025\\Unificar\\Pruebas\\1\\AdministracionDePersonal-Simon\\AdministracionDePersonal\\Pages\\ParteOferente\\editarPuesto.cshtml",
               "RelativeDocumentMoniker": "AdministracionDePersonal\\Pages\\ParteOferente\\editarPuesto.cshtml",
-              "ToolTip": "C:\\Users\\ghoxt\\Desktop\\AdministracionDePersonal\\AdministracionDePersonal\\Pages\\ParteOferente\\editarPuesto.cshtml",
+              "ToolTip": "D:\\I Cuatri - 2025\\Unificar\\Pruebas\\1\\AdministracionDePersonal-Simon\\AdministracionDePersonal\\Pages\\ParteOferente\\editarPuesto.cshtml",
               "RelativeToolTip": "AdministracionDePersonal\\Pages\\ParteOferente\\editarPuesto.cshtml",
               "ViewState": "AgIAAB4AAAAAAAAAAAAAACoAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -207,11 +345,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 20,
               "Title": "IOferenteService.cs",
-              "DocumentMoniker": "C:\\Users\\ghoxt\\Desktop\\AdministracionDePersonal\\AdministracionDePersonal.Servicess\\Abstract\\IOferenteService.cs",
+              "DocumentMoniker": "D:\\I Cuatri - 2025\\Unificar\\Pruebas\\1\\AdministracionDePersonal-Simon\\AdministracionDePersonal.Servicess\\Abstract\\IOferenteService.cs",
               "RelativeDocumentMoniker": "AdministracionDePersonal.Servicess\\Abstract\\IOferenteService.cs",
-              "ToolTip": "C:\\Users\\ghoxt\\Desktop\\AdministracionDePersonal\\AdministracionDePersonal.Servicess\\Abstract\\IOferenteService.cs",
+              "ToolTip": "D:\\I Cuatri - 2025\\Unificar\\Pruebas\\1\\AdministracionDePersonal-Simon\\AdministracionDePersonal.Servicess\\Abstract\\IOferenteService.cs",
               "RelativeToolTip": "AdministracionDePersonal.Servicess\\Abstract\\IOferenteService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -219,11 +357,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 19,
               "Title": "Contratar.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\ghoxt\\Desktop\\AdministracionDePersonal\\AdministracionDePersonal\\Pages\\ParteOferente\\Contratar.cshtml.cs",
+              "DocumentMoniker": "D:\\I Cuatri - 2025\\Unificar\\Pruebas\\1\\AdministracionDePersonal-Simon\\AdministracionDePersonal\\Pages\\ParteOferente\\Contratar.cshtml.cs",
               "RelativeDocumentMoniker": "AdministracionDePersonal\\Pages\\ParteOferente\\Contratar.cshtml.cs",
-              "ToolTip": "C:\\Users\\ghoxt\\Desktop\\AdministracionDePersonal\\AdministracionDePersonal\\Pages\\ParteOferente\\Contratar.cshtml.cs",
+              "ToolTip": "D:\\I Cuatri - 2025\\Unificar\\Pruebas\\1\\AdministracionDePersonal-Simon\\AdministracionDePersonal\\Pages\\ParteOferente\\Contratar.cshtml.cs",
               "RelativeToolTip": "AdministracionDePersonal\\Pages\\ParteOferente\\Contratar.cshtml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -231,23 +369,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "IDbConnectionFactory.cs",
-              "DocumentMoniker": "C:\\Users\\ghoxt\\Desktop\\AdministracionDePersonal\\AdministracionDePersonal.Repository\\IDbConnectionFactory.cs",
-              "RelativeDocumentMoniker": "AdministracionDePersonal.Repository\\IDbConnectionFactory.cs",
-              "ToolTip": "C:\\Users\\ghoxt\\Desktop\\AdministracionDePersonal\\AdministracionDePersonal.Repository\\IDbConnectionFactory.cs",
-              "RelativeToolTip": "AdministracionDePersonal.Repository\\IDbConnectionFactory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-17T18:52:18.076Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 21,
               "Title": "Puesto.cs",
-              "DocumentMoniker": "C:\\Users\\ghoxt\\Desktop\\AdministracionDePersonal\\AdministracionDePersonal.Entities\\Puesto.cs",
+              "DocumentMoniker": "D:\\I Cuatri - 2025\\Unificar\\Pruebas\\1\\AdministracionDePersonal-Simon\\AdministracionDePersonal.Entities\\Puesto.cs",
               "RelativeDocumentMoniker": "AdministracionDePersonal.Entities\\Puesto.cs",
-              "ToolTip": "C:\\Users\\ghoxt\\Desktop\\AdministracionDePersonal\\AdministracionDePersonal.Entities\\Puesto.cs",
+              "ToolTip": "D:\\I Cuatri - 2025\\Unificar\\Pruebas\\1\\AdministracionDePersonal-Simon\\AdministracionDePersonal.Entities\\Puesto.cs",
               "RelativeToolTip": "AdministracionDePersonal.Entities\\Puesto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -255,35 +381,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\ghoxt\\Desktop\\AdministracionDePersonal\\AdministracionDePersonal\\appsettings.json",
-              "RelativeDocumentMoniker": "AdministracionDePersonal\\appsettings.json",
-              "ToolTip": "C:\\Users\\ghoxt\\Desktop\\AdministracionDePersonal\\AdministracionDePersonal\\appsettings.json",
-              "RelativeToolTip": "AdministracionDePersonal\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-17T18:12:31.569Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "OferenteRepository.cs",
-              "DocumentMoniker": "C:\\Users\\ghoxt\\Desktop\\AdministracionDePersonal\\AdministracionDePersonal.Repository\\OferenteRepository.cs",
-              "RelativeDocumentMoniker": "AdministracionDePersonal.Repository\\OferenteRepository.cs",
-              "ToolTip": "C:\\Users\\ghoxt\\Desktop\\AdministracionDePersonal\\AdministracionDePersonal.Repository\\OferenteRepository.cs",
-              "RelativeToolTip": "AdministracionDePersonal.Repository\\OferenteRepository.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAUwDsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-16T15:49:21.559Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 22,
               "Title": "ElegirPuesto.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\ghoxt\\Desktop\\AdministracionDePersonal\\AdministracionDePersonal\\Pages\\ParteOferente\\ElegirPuesto.cshtml.cs",
+              "DocumentMoniker": "D:\\I Cuatri - 2025\\Unificar\\Pruebas\\1\\AdministracionDePersonal-Simon\\AdministracionDePersonal\\Pages\\ParteOferente\\ElegirPuesto.cshtml.cs",
               "RelativeDocumentMoniker": "AdministracionDePersonal\\Pages\\ParteOferente\\ElegirPuesto.cshtml.cs",
-              "ToolTip": "C:\\Users\\ghoxt\\Desktop\\AdministracionDePersonal\\AdministracionDePersonal\\Pages\\ParteOferente\\ElegirPuesto.cshtml.cs",
+              "ToolTip": "D:\\I Cuatri - 2025\\Unificar\\Pruebas\\1\\AdministracionDePersonal-Simon\\AdministracionDePersonal\\Pages\\ParteOferente\\ElegirPuesto.cshtml.cs",
               "RelativeToolTip": "AdministracionDePersonal\\Pages\\ParteOferente\\ElegirPuesto.cshtml.cs",
               "ViewState": "AgIAABcAAAAAAAAAAAAkwCcAAABbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

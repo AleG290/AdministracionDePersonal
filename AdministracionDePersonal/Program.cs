@@ -1,11 +1,11 @@
-using Area.Service;
-using Area.Services;
-using Area.Services.Abstract;
+
 using Areas.Repository;
 using AdministracionDePersonal.Servicess.Abstract;
 using AdministracionDePersonal.Servicess;
 using AdministracionDePersonal.Repository;
 using AdministracionDePersonal;
+using Area.Services.Abstract;
+using Area.Service;
 
 var builder = WebApplication.CreateBuilder(args);
 
