@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
+
 namespace AdminDePersonal.Pages
 {
     using global::Areas.Entities.Areas.Entities;
@@ -57,4 +58,5 @@ namespace AdminDePersonal.Pages
 
     //    }
     //}
+
 }

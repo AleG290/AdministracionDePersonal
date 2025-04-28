@@ -1,36 +1,47 @@
-
 using Area.Service;
 using Area.Services;
 using Area.Services.Abstract;
 using Areas.Repository;
+using AdministracionDePersonal.Servicess.Abstract;
+using AdministracionDePersonal.Servicess;
+using AdministracionDePersonal.Repository;
+using AdministracionDePersonal;
 
 var builder = WebApplication.CreateBuilder(args);
 
-            // Add services to the container.
-           
+// Add services to the container.
 builder.Services.AddRazorPages();
-builder.Services.AddSingleton<IDbConnectionFactory, DbConnectionFactory>();
+
+// Agregar servicios de Area y AdministracionDePersonal
 builder.Services.AddScoped<Area1Repository>();
-builder.Services.AddScoped<IAreaServices,AreaServices>();
+builder.Services.AddScoped<IAreaServices, AreaServices>();
+
+builder.Services.AddScoped<OferenteRepository>();
+builder.Services.AddScoped<PuestoRepository>();
+builder.Services.AddScoped<IOferenteService, OferenteService>();
+builder.Services.AddScoped<IPuestoService, PuestoService>();
+
+// Agregar DB connection factory
+builder.Services.AddSingleton<IDbConnectionFactory, DbConnectionFactory>();
 
 var app = builder.Build();
+
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
-  app.UseExceptionHandler("/Error");
-  // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-  app.UseHsts();
+    app.UseExceptionHandler("/Error");
+    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
+    app.UseHsts();
 }
 
- app.UseHttpsRedirection();
- app.UseStaticFiles();
+app.UseHttpsRedirection();
+app.UseStaticFiles();
 
- app.UseRouting();
+app.UseRouting();
 
- app.UseAuthorization();
+app.UseAuthorization();
 
- app.MapRazorPages();
+app.MapRazorPages();
 
- app.Run();
+app.Run();
 
-        

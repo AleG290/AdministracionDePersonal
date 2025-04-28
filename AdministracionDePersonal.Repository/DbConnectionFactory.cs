@@ -1,14 +1,17 @@
-﻿using Microsoft.Data.SqlClient;
+
 using Microsoft.Extensions.Configuration;
-using MySqlConnector;
+using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Areas.Repository
+
+namespace AdministracionDePersonal.Repository
+
 {
     public class DbConnectionFactory : IDbConnectionFactory
     {
@@ -23,6 +26,5 @@ namespace Areas.Repository
         {
             return new MySqlConnection(_configuration.GetConnectionString("DefaultConnection"));
         }
-
     }
 }

@@ -7,8 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+
     <ProjectReference Include="..\AdministracionDePersonal.Services\AdministracionDePersonal.Services.csproj" />
     <ProjectReference Include="..\AdministracionDePersonal.Repository\AdministracionDePersonal.Repository.csproj" />
+    <ProjectReference Include="..\AdministracionDePersonal.Servicess\AdministracionDePersonal.Servicess.csproj" />
+
   </ItemGroup>
 
 </Project>
