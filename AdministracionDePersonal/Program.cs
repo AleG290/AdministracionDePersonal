@@ -21,7 +21,11 @@ builder.Services.AddRazorPages();
 // Agregar servicios de Area y AdministracionDePersonal
 builder.Services.AddScoped<Area1Repository>();
 builder.Services.AddScoped<IAreaServices, AreaServices>();
+builder.Services.AddScoped<IRequisitoService, RequisitoService>();
+builder.Services.AddScoped<RequisitoRepository>();
 
+builder.Services.AddScoped<IAccionService, AccionService>();
+builder.Services.AddScoped<AccionRepository>();
 builder.Services.AddScoped<OferenteRepository>();
 builder.Services.AddScoped<PuestoRepository>();
 builder.Services.AddScoped<IOferenteService, OferenteService>();
