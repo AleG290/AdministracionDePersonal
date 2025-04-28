@@ -7,14 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Dapper" Version="2.1.66" />
-    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="9.0.2" />
-    <PackageReference Include="MySql.Data" Version="9.2.0" />
-
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\AdministracionDePersonal.Entities\AdministracionDePersonal.Entities.csproj" />
+    <ProjectReference Include="..\AdministracionDePersonal.Repository\AdministracionDePersonal.Repository.csproj" />
   </ItemGroup>
 
 </Project>

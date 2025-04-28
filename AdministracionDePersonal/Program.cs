@@ -1,3 +1,7 @@
+using Area.Service;
+using Area.Services;
+using Area.Services.Abstract;
+using Areas.Repository;
 using AdministracionDePersonal.Servicess.Abstract;
 using AdministracionDePersonal.Servicess;
 using AdministracionDePersonal.Repository;
@@ -8,11 +12,17 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddRazorPages();
 
+// Agregar servicios de Area y AdministracionDePersonal
+builder.Services.AddScoped<Area1Repository>();
+builder.Services.AddScoped<IAreaServices, AreaServices>();
+
 builder.Services.AddScoped<OferenteRepository>();
 builder.Services.AddScoped<PuestoRepository>();
 builder.Services.AddScoped<IOferenteService, OferenteService>();
-builder.Services.AddScoped<IDbConnectionFactory, DbConnectionFactory>();
 builder.Services.AddScoped<IPuestoService, PuestoService>();
+
+// Agregar DB connection factory
+builder.Services.AddSingleton<IDbConnectionFactory, DbConnectionFactory>();
 
 var app = builder.Build();
 
@@ -34,3 +44,4 @@ app.UseAuthorization();
 app.MapRazorPages();
 
 app.Run();
+
